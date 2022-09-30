@@ -1,4 +1,5 @@
 import '@/main.css';
+import render from '@/map';
 import axios from 'axios';
 
 const form = document.querySelector<HTMLFormElement>('#form')!;
@@ -30,7 +31,7 @@ async function searchAddressHandler(e: SubmitEvent) {
 
     const [longitude, latitude] = data.features[0].geometry.coordinates;
 
-    console.log(longitude, latitude);
+    render(longitude, latitude);
   } catch (error: any) {
     alert(error.message);
     console.log(error);

@@ -1,5 +1,5 @@
 {
-  "name": "typescript-openlayers-demo",
+  "name": "typescript-geographic-coordinates-demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^4.6.4",
+    "typescript": "^4.8.4",
     "vite": "^3.1.0",
     "vite-tsconfig-paths": "^3.5.1"
   },
